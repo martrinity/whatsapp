@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whatsapp web</title>
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+  <link rel="stylesheet" href="docs/font-awesome-4.7.0">
+  <link rel="stylesheet" href="docs/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="fondo"></header>
+  <div class="container">
+    <div class="row">
+      <div class="col m10 " id="aplicacion">
+        <div class="row">
+          <div class="col m4" id="contactos">
+          <div class="perfil">
+            <img class="circle responsive-img left" src="image/gian.jpg" alt="">
+            <i class="fa fa-ellipsis-v right" aria-hidden="true"></i>
+            <i class="fa fa-address-card right" aria-hidden="true"></i>
+          </div>
+          <div>
+             <input type="text" placeholder="Buscar o empezar un chat nuevo">
+            <ul id="lista-contactos">
+            <li id="contacto" class="middle"><a href=""><img src="image/logocodeacademy.png" class="circle responsive-img" alt="avatar"></a>Nombre del contacto 
+             <label class="center" for="#contacto"><!-- ultimo mensaje del chat -->algo</label></li>
+            <li id="contacto" class="middle"><a href=""><img src="image/logocodeacademy.png" class="circle responsive-img" alt="avatar"></a>Nombre del contacto 
+            <label class="center" for="#contacto"><!-- ultimo mensaje del chat -->algo</label></li>
+            <li id="contacto" class="middle"><a href=""><img src="image/logocodeacademy.png" class="circle responsive-img" alt="avatar"></a>Nombre del contacto 
+            <label class="center" for="#contacto"><!-- ultimo mensaje del chat -->algo</label></li>
+            <li id="contacto" class="middle"><a href=""><img src="image/logocodeacademy.png" class="circle responsive-img" alt="avatar"></a>Nombre del contacto 
+            <label class="center" for="#contacto"><!-- ultimo mensaje del chat -->algo</label></li>
+            <li id="contacto" class="middle"><a href=""><img src="image/logocodeacademy.png" class="circle responsive-img" alt="avatar"></a>Nombre del contacto 
+            <label class="center" for="#contacto"><!-- ultimo mensaje del chat -->algo</label></li>
+            <li id="contacto" class="middle"><a href=""><img src="image/logocodeacademy.png" class="circle responsive-img" alt="avatar"></a>Nombre del contacto 
+            <label class="center" for="#contacto"><!-- ultimo mensaje del chat -->algo</label></li>
+            <li id="contacto" class="middle"><a href=""><img src="image/logocodeacademy.png" class="circle responsive-img" alt="avatar"></a>Nombre del contacto 
+            <label class="center" for="#contacto"><!-- ultimo mensaje del chat -->algo</label></li>
+            <li id="contacto" class="middle"><a href=""><img src="image/logocodeacademy.png" class="circle responsive-img" alt="avatar"></a>Nombre del contacto 
+            <label class="center" for="#contacto"><!-- ultimo mensaje del chat -->algo</label></li>
+            <li id="contacto" class="middle"><a href=""><img src="image/logocodeacademy.png" class="circle responsive-img" alt="avatar"></a>Nombre del contacto 
+            <label class="center" for="#contacto"><!-- ultimo mensaje del chat -->algo</label></li>
+          </ul>
+          </div>
+        </div><!-- cierre contactos -->
+        <div class="col m8" id="conversaciones">
+          <div class="info-actual">
+            <h3>Nombre contacto</h3><!-- idealmente traerlo desde los contactos -->
+          </div>
+          <div id="current-conversation">
+            
+          </div>
+          <form >
+            <input type="text" id="ingreso-mensaje" placeholder="Escribe tu mensaje aqui">
+            <button id="enviar" type="button">
+            <i class="fa fa-microphone right" aria-hidden="true"></i>
+            </button>
+          </form>
+        
+
+        </div><!-- cierre conversaciones -->
+        </div><!-- cierre fila app -->
+      </div><!-- Cierre aplicacion -->
+    </div>
+
+  </div>
+</div>
+
+
+
+<script href="docs/materialize/js/materialize.min.js"></script>
+<script href="js/app.js"></script>
+</body>
+</html>
